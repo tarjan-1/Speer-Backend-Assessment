@@ -1,0 +1,37 @@
+{
+  "name": "speer-backend-assessment",
+  "version": "1.0.0",
+  "description": "Solution for the pre screening assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "dev": "nodemon server.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarjan-1/Speer-Backend-Assessment.git"
+  },
+  "author": "Tarjan Bawankule",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarjan-1/Speer-Backend-Assessment/issues"
+  },
+  "homepage": "https://github.com/tarjan-1/Speer-Backend-Assessment#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
