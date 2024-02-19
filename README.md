@@ -26,8 +26,6 @@ Secure and scalable RESTful API that allows users to create, read, update, and d
 
 ## Technical Stack
 
-List the technologies and frameworks used in your project.
-
 - Node.js "v18.18.0"
 - Express.js: "^4.18.2"
 - Mongoose : "^8.0.3"
